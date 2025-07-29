@@ -1,11 +1,12 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import product from './modules/product' // 商品管理モジュールをインポート
+import weather from './modules/weather' // ← モジュール読み込み
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
   modules: {
-    product // productモジュールを登録
+    weather
   }
 })
+
